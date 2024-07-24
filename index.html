@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Соня Вева - Графический дизайнер</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://psv4.userapi.com/c237131/u142067901/docs/d54/13dc5afd5909/Frame_28_1.png?extra=zgYYix-y4lrehItNm5CEGPyxEsa9MzsGDtkvyFwEdKidyUJYo0Mnnbmw5BSuFypCfk-pgP3p5vYy6jZJQPt4oaZwAlE_fUkMB5zeqIBp13obk_oea7Bam5hgnpFcbniZGGJmSpqGgRvOEvkOgs6os9A') repeat;
+            background-size: cover;
+            color: #ffffff;
+            background-color: #000000;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8); /* Добавлено затемнение */
+            z-index: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        header, section, footer {
+            margin-bottom: 40px;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header img {
+            width: 100%;
+            max-width: 400px; /* Ширина фото */
+            max-height: 100vh; /* Высота фото на весь экран */
+            object-fit: cover;
+        }
+        section h2 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #CBEE4C;
+        }
+        .projects img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .projects a {
+            display: inline-block;
+        }
+        footer {
+            text-align: center;
+        }
+        a {
+            color: #CBEE4C;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Соня Вева</h1>
+                <p>Графический дизайнер</p>
+            </div>
+            <img src="https://psv4.userapi.com/c237131/u142067901/docs/d16/6c8d1b3a6200/jxK0OYHfPpw_1.png?extra=E8y38zQ8xP97TWsup2rxhq3Q35XO-V3CgrYjM8G4ElF1bGk8q7BmYE5ArwHccMQsJwNfXbdzcPwSB0Ll0pjYVBFC8DtgU5UV3XOwI2rRQSW6Fj6Xuw1VXWYvZHWv8ncL8mFTe7Ri42mt57lV54stqXI" alt="Соня Вева">
+        </header>
+        <section>
+            <h2>Обо мне</h2>
+            <p>Привет! Я Соня Вева, графический дизайнер с уникальным стилем. занимаюсь дизайном 3 года. Действующий дизайнер студии “NELAMA”. Графический дизайн вдохновляет меня на поиски нового и интересного, ведь создавать вокруг себя красоту - одно из моих главных стремлений.</p>
+        </section>
+        <section class="projects">
+            <h2>Проекты</h2>
+            <p>Некоторые из моих работ:</p>
+            <a href="https://sun9-52.userapi.com/impg/526UOVYBYhQCmZ_HjEjwTM5U7wyNvJzqERX-4w/ehOF7WsoNQE.jpg?size=2560x1810&quality=95&sign=e2ed12e6c5226408022fc94d2a646a0a&type=album=" target="_blank">
+                <img src="https://sun9-52.userapi.com/impg/526UOVYBYhQCmZ_HjEjwTM5U7wyNvJzqERX-4w/ehOF7WsoNQE.jpg?size=2560x1810&quality=95&sign=e2ed12e6c5226408022fc94d2a646a0a&type=album=" alt="Проект 1">
+            </a>
+            <a href="https://sun9-63.userapi.com/impg/5Zz9lZ-EykvUgpkeKFQfeAwW-sHYqUSS3sYwXA/zWYPHlArlFo.jpg?size=2560x1810&quality=95&sign=6608df8c332ea3a3127ac476b67762d7&type=album=" target="_blank">
+                <img src="https://sun9-63.userapi.com/impg/5Zz9lZ-EykvUgpkeKFQfeAwW-sHYqUSS3sYwXA/zWYPHlArlFo.jpg?size=2560x1810&quality=95&sign=6608df8c332ea3a3127ac476b67762d7&type=album=" alt="Проект 2">
+            </a>
+            <a href="https://sun9-31.userapi.com/impg/T9k5Q9W9kTz8cxDMUMGGqPyXIH4MRtpBunbsXw/Xg-XM1vUcdc.jpg?size=2560x1810&quality=95&sign=286d39285bd51599c63192a1d40d38d8&type=album=" target="_blank">
+                <img src="https://sun9-31.userapi.com/impg/T9k5Q9W9kTz8cxDMUMGGqPyXIH4MRtpBunbsXw/Xg-XM1vUcdc.jpg?size=2560x1810&quality=95&sign=286d39285bd51599c63192a1d40d38d8&type=album=" alt="Проект 3">
+            </a>
+        </section>
+        <section>
+            <h2>Контакты</h2>
+            <p>Вы можете связаться со мной через следующие платформы:</p>
+            <ul>
+                <li>Телеграм-аккаунт: <a href="https://t.me/bbbaby_mamaa">@bbbaby_mamaa</a></li>
+                <li>Телеграм-канал: <a href="https://t.me/bbbaby_designer">https://t.me/bbbaby_designer</a></li>
+                <li>ВК-сообщество: <a href="https://vk.com/bbbaby_design">https://vk.com/bbbaby_design</a></li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2024 Соня Вева. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
